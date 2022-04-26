@@ -6,10 +6,15 @@
     background-repeat: no-repeat;
 }
 
+.wrapper {
+    width: 80%;
+}
+
 .about1 {
     background-image: url(https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/07/Woman-riding-bycicle-at-the-park-1296x728-header.jpg?w=1155&h=1528);
     width: 100%;
     height: auto;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,6 +24,7 @@
     background-image: url(https://img.sunset02.com/sunsetm/wp-content-uploads/2019-03-28UTC08/bike-towns-portland-sun-0214.jpg);
     width: 100%;
     height: auto;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,6 +34,14 @@
     background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/image-from-ios-1570711663.jpg?crop=1.00xw:0.531xh;0,0.392xh&resize=1200:*);
     width: 100%;
     height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    background-image: url(https://img.freepik.com/free-vector/dark-wavy-background_23-2148421508.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

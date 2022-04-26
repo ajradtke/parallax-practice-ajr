@@ -16,13 +16,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/914086c2d6.js" crossorigin="anonymous"></script>
+
     <link href="/css/style.css" rel="stylesheet">
 
     <title>Hello, world! Day Seven</title>
   </head>
+
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,24 +33,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#about-1">About 1</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <a class="nav-link" href="#about-2">About 2</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link" href="#about-3">About 3</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -58,45 +50,65 @@
       </div>
     </nav>
 
-    <div class="container bg-light d-flex flex-column text-center justify-content-center jumbotron" style="height: 500px;">
+    <div class="container d-flex flex-column text-center justify-content-center align-items-center jumbotron" style="height: 500px;">
       
       <div class="row">
-        <div class="col d-flex justify-content-center align-item-center">
+        <div class="col d-flex justify-content-center align-items-center flex-column">
            <h2 class="p-3 text-white bg-dark">HERO IMAGE</h2>
         </div>
       </div>
       
     </div>
 
-    <div class="container bg-light d-flex flex-column text-center justify-content-center about1" style="height: 500px;">
-      
-      <div class="row">
-        <div class="col d-flex justify-content-center align-item-center">
-           <h2 class="p-3 text-white bg-dark">ABOUT 1</h2>
-        </div>
+    <div class="container bg-dark">
+        <div id="about-1" class="col d-flex justify-content-center align-items-center flex-column text-white">
+          <h2 class="p-3 text-white bg-dark">ABOUT 1</h2>
+          <p class="wrapper">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque facilis soluta laboriosam nemo. Accusamus quaerat modi deleniti commodi maxime libero iusto facere nihil illo quia enim fuga quasi delectus sit quisquam minus veritatis dolores ducimus, perferendis sunt vitae distinctio tenetur itaque numquam. Reprehenderit asperiores, natus corrupti rem quis eligendi vitae.</p>
       </div>
-      
+    </div>
+    <div class="container d-flex flex-column text-center justify-content-center about1" style="height: 500px;">
+    </div>
+
+    <div class="container bg-dark">
+      <div id="about-2" class="col d-flex justify-content-center align-items-center flex-column text-white">
+         <h2 class="p-3 text-white bg-dark">ABOUT 2</h2>
+         <p class="wrapper">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque facilis soluta laboriosam nemo. Accusamus quaerat modi deleniti commodi maxime libero iusto facere nihil illo quia enim fuga quasi delectus sit quisquam minus veritatis dolores ducimus, perferendis sunt vitae distinctio tenetur itaque numquam. Reprehenderit asperiores, natus corrupti rem quis eligendi vitae.</p>
+      </div>
     </div>
 
     <div class="container bg-light d-flex flex-column text-center justify-content-center about2" style="height: 500px;">
-      
-      <div class="row">
-        <div class="col d-flex justify-content-center align-item-center">
-           <h2 class="p-3 text-white bg-dark">ABOUT 2</h2>
-        </div>
+    </div>
+
+    <div class="container bg-dark">
+      <div id="about-3" class="col d-flex flex-column justify-content-center align-items-center text-white">
+         <h2 class="p-3 text-white bg-dark">ABOUT 3</h2>
+         <p class="wrapper">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque facilis soluta laboriosam nemo. Accusamus quaerat modi deleniti commodi maxime libero iusto facere nihil illo quia enim fuga quasi delectus sit quisquam minus veritatis dolores ducimus, perferendis sunt vitae distinctio tenetur itaque numquam. Reprehenderit asperiores, natus corrupti rem quis eligendi vitae.</p>
       </div>
-      
     </div>
 
     <div class="container bg-light d-flex flex-column text-center justify-content-center about3" style="height: 500px;">
+     </div>
+
+    <footer class="container bg-light d-flex flex-column text-center justify-content-center footer" style="height: 500px;">
       
-      <div class="row">
-        <div class="col d-flex justify-content-center align-item-center">
-           <h2 class="p-3 text-white bg-dark">ABOUT 3</h2>
+      <div class="row d-flex flex-column">
+        
+        <div class="col d-flex justify-content-center align-items-center">
+           <h2 class="p-3 text-white bg-dark">Contact Us</h2>
         </div>
+
+        <div class="col d-flex justify-content-center align-items-center">
+          <div class="d-flex justify-content-around">
+            <a class="m-3" href="#"><i class="fa-brands fa-3x fa-facebook-square" style="color: white"></i></a>
+            <a class="m-3" href="#"><i class="fa-brands fa-3x fa-instagram-square" style="color: white;"></i></a>
+            <a class="m-3" href="#"><i class="fa-brands fa-3x fa-pinterest-square" style="color: white"></i></a>
+            <a class="m-3" href="#"><i class="fa-brands fa-3x fa-linkedin" style="color: white"></i></a>
+          </div>
+        </div>
+
       </div>
       
-    </div>
+    </footer>
    
   </body>
 </html>
